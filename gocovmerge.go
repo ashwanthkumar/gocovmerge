@@ -10,7 +10,7 @@ import (
 	"os"
 	"sort"
 
-	"golang.org/x/tools/cover"
+	"golang.org/x/tools/cmd/cover"
 )
 
 func mergeProfiles(p *cover.Profile, merge *cover.Profile) {
